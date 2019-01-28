@@ -9,5 +9,5 @@
 
 - Add this entry to your list of keybindings: (**Sublime Text > Preferences > Key Bindings**)
     - `{ "keys": [ "ctrl+m"], "command": "meow"}`
-- See the list of emojis and emoji-texts in `emojis.py` :poop:
+- See the list of emojis and emoji-texts in [emojis.py](https://github.com/live-wire/meow/blob/master/emojis.py) :poop:
 - You're all set! Use the key combination `ctrl + m` in a file and see it in action :heart: ❤️
