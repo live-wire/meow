@@ -18,6 +18,7 @@
 
 - press `ctrl + space` to enable drop down.
 -  ![drop down example](resources/sample_dropdown.gif)
+-  make sure to check field `Preferences -> Setings` : `"auto_complete": true` 
  
 
 > Thanks to the awesome collection on [this gist](https://gist.github.com/roachhd/1f029bd4b50b8a524f3c).
