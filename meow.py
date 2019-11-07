@@ -19,3 +19,15 @@ class MeowCommand(sublime_plugin.TextCommand):
 
         # For each match, look up the corresponding value in the dictionary
         return regex.sub(lambda match: adict[match.group(0)], text)
+
+
+
+class MeowCompletionsListener(sublime_plugin.EventListener):
+    def on_query_completions(self, view, prefix, locations):
+        source = EMOJIS.keys()
+        matching_keys = [key for key in source if prefix in key]
+        # [ suggestion view, replacement text ]
+        completions = [[key + " " + EMOJIS[key] , EMOJIS[key]] for key in matching_keys] 
+        if not completions:
+            return None
+        return completions
