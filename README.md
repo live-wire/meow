@@ -17,7 +17,9 @@
 #### How to use autocomplete?
 
 - press `ctrl + space` to enable drop down.
--  ![drop down example](resources/sample_dropdown.gif)
+
+  ![drop down example](resources/sample_dropdown.gif)
+
 -  make sure to check field `Preferences -> Setings` : `"auto_complete": true` 
  
 
